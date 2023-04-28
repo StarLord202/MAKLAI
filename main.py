@@ -11,7 +11,7 @@ from typing import List
 
 from typing import Optional
 
-from PerephrasationModule import DefaultParaphrasationAlgorithm, Rephraser
+from ParaphrasationModule import DefaultParaphrasationAlgorithm, Rephraser
 
 DefaultMethod = DefaultParaphrasationAlgorithm()
 Rephraser = Rephraser()
