@@ -109,7 +109,7 @@ class DefaultParaphrasationAlgorithm(ParaphrasationAlgorithm):
         N = len(productions)
         if N - 1 > limit:
             indexes = random.sample(range(1, N), limit)
-        else: indexes = range(N)
+        else: indexes = range(1, N)
         for ind in indexes:
             prod = productions[ind]
             tree = t.copy(deep=True)
