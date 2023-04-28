@@ -19,3 +19,7 @@ Quarter) ) (, ,) (CC or) (NP (NNP Barri) (NNP Gòtic) ) ) (, ,) (VP (VBZ has) (N
 (JJ narrow) (JJ medieval) (NNS streets) ) (VP (VBN filled) (PP (IN with) (NP (NP (JJ
 trendy) (NNS bars) ) (, ,) (NP (NNS clubs) ) (CC and) (NP (JJ Catalan) (NNS
 restaurants) ) ) ) ) ) ) )
+
+для того щоби надіслати запит з власним лімітом треба використати наступний синтаксис
+
+localhost:8000/paraphrase?tree=<...>&limit=<...> де замість <...> підставити дерево та ліміт
