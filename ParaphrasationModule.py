@@ -11,7 +11,7 @@ class ParaphrasationAlgorithm(ABC):
     """
 
     @abstractmethod
-    def paraphrase(self, t:nltk.Tree, limit=100) -> List[nltk.Tree]:
+    def paraphrase(self, t:nltk.Tree, limit) -> List[nltk.Tree]:
         pass
 
 
